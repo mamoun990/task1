@@ -1,0 +1,388 @@
+.nav{
+    background-color: wheat;
+    justify-content: center;
+}
+
+.but1{
+    background-color: rgba(128, 128, 128, 0.581);
+}
+#p1{
+    display: none;
+}
+#btn2{
+    display: none;
+}
+.btn1{
+    background-color: rgba(249, 188, 188, 0.516);
+}
+
+.div1{    
+    background-image: url(../img/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    width: 100%;
+    height: 100vh;
+}
+.client-logo img{
+    width: 70%;
+    padding: 1rem;
+    margin-top: 1rem;
+    filter:grayscale(100);
+    opacity: 0.5;
+    transition: 0.5s all;
+}
+.client-logo img:hover{
+    filter: grayscale(0);
+    opacity: 1;
+    transition: 0.5s
+
+}
+.butt:hover .btn{
+ background-color: rgb(188, 0, 0) !important;
+ color: white !important;
+ transition: 1s all;
+
+
+} 
+.div2{
+    height: 50vh;
+    width: 100%; 
+    background-image: url(../img/3.1.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div2 .div3 div h1{
+    color: white;
+    font-family: cursive;
+} 
+.div2 .div3 div{
+    display: flex;
+    justify-content: center;
+}
+.div2 .div3{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.544);
+    height: 50vh;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.div2 .div3 div h1 span{
+    font-size: 40%;
+    font-weight: 700;
+    font-family: cursive;
+    color: rgba(255, 255, 255, 0.512);
+}
+hr{
+    opacity: 1;
+}
+.services .div4 h4{
+font-family: Arial, Helvetica, sans-serif;
+
+font-size: 130%;
+font-weight: 700;
+}
+.services .div4 h4 a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.616);
+    transition: 0.3s all;
+}
+.services .div4 h4 a:hover {
+    color: rgba(255, 0, 0, 0.667);
+    transition: 0.3s all;
+
+}
+.div6 h2{
+    font-weight: 700;
+    font-size: 230%;
+}
+.icons .fa{
+    
+    border: none;
+    border-radius: 10rem;
+    padding: 1rem;
+}
+
+.div7{
+    background-image: url(../img/16.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 30vh;
+    border-radius: 8rem;
+    
+    border: 8px solid rgb(130, 126, 117);
+    transition: 0.7s all;
+}
+.div7:hover{
+    border: 8px solid black;
+    transition: 0.5s all;
+}
+.div7 .icons{
+    background-color: rgba(59, 57, 57, 0.347);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem ;
+    opacity: 0;
+    transition: 1s all;
+    
+
+}
+.div7 .icons:hover{
+    opacity: 1;
+    transition: 0.7s all;
+    }
+.div9{
+    background-image: url(../img/17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 30vh;
+    border-radius: 8rem;
+    border: 8px solid rgb(130, 126, 117);
+    transition: 0.7s all; 
+}
+
+.div9:hover{
+    border: 8px solid black;
+    transition: 0.5s all;
+}
+.div9 .icons{
+    background-color: rgba(59, 57, 57, 0.347);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem ;
+    opacity: 0;
+    transition: 1s all;
+    
+
+}
+
+.div9 .icons:hover{
+opacity: 1;
+transition: 0.7s all;
+}
+.div10{
+    background-image: url(../img/18.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 30vh;
+    border-radius: 8rem;
+    border: 8px solid rgb(130, 126, 117);
+    transition: 0.7s all; 
+}
+
+.div10:hover{
+    border: 8px solid black;
+    transition: 0.5s all;
+}
+.div10 .icons{
+    background-color: rgba(59, 57, 57, 0.347);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem ;
+    opacity: 0;
+    transition: 1s all;
+    
+
+}
+
+.div10 .icons:hover{
+opacity: 1;
+transition: 0.7s all;
+}
+.div11{
+    background-image: url(../img/19.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 30vh;
+    border-radius: 8rem;
+    border: 8px solid rgb(130, 126, 117);
+    transition: 0.7s all; 
+}
+
+.div11:hover{
+    border: 8px solid black;
+    transition: 0.5s all;
+}
+.div11 .icons{
+    background-color: rgba(59, 57, 57, 0.347);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem ;
+    opacity: 0;
+    transition: 1s all;
+    
+
+}
+
+.div11 .icons:hover{
+opacity: 1;
+transition: 0.7s all;
+}
+.div12{
+    background-image: url(../img/20.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 30vh;
+    border-radius: 8rem;
+    border: 8px solid rgb(130, 126, 117);
+    transition: 0.7s all; 
+}
+
+.div12:hover{
+    border: 8px solid black;
+    transition: 0.5s all;
+}
+.div12 .icons{
+    background-color: rgba(59, 57, 57, 0.347);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem ;
+    opacity: 0;
+    transition: 1s all;
+    
+
+}
+
+.div12 .icons:hover{
+opacity: 1;
+transition: 0.7s all;
+}
+.div13{
+    background-image: url(../img/21.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 30vh;
+    border-radius: 8rem;
+    border: 8px solid rgb(130, 126, 117);
+    transition: 0.7s all; 
+}
+
+.div13:hover{
+    border: 8px solid black;
+    transition: 0.5s all;
+}
+.div13 .icons{
+    background-color: rgba(59, 57, 57, 0.347);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8rem ;
+    opacity: 0;
+    transition: 1s all;
+    
+
+}
+
+.div13 .icons:hover{
+opacity: 1;
+transition: 0.7s all;
+}
+.div14{
+    background-attachment: fixed;
+    background-image: url(../img/22.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+.div15{
+    background-color: rgba(6, 6, 6, 0.462);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    width: 100%;
+    height: 100%;
+}
+.div15 .btn{
+    border-color: white;
+    transition: 0.4s all;
+    font-family: cursive;
+    font-size: 95%;
+    font-weight: 600;
+}
+.div15 .btn:hover {
+    border-color: brown;
+    transition: 0.2s all;
+}
+.div16{
+    background-color: rgba(183, 180, 178, 0.388)
+}
+.img1 img{
+    width: 20%;
+}
+.div17{
+    background-color: rgba(93, 90, 90, 0.073);
+}
+.div17 input{
+    opacity: 0.5;
+}
+textarea{
+    opacity: 0.5;
+}   
+#but5{
+    transition: 0.3s all;
+    background-color: #dd2c2c;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+}
+
+#but6{
+    transition: 0.3s all;
+    background-color: white;
+    color: #dd2c2c;
+    border: none;
+    border-radius: 1rem;
+}
+
+#but7{
+    transition: 0.3s all;
+    background-color: white;
+    color: #dd2c2c;
+    border: none;
+    border-radius: 1rem;
+}
+
+#but8{
+    transition: 0.3s all;
+    background-color: white;
+    color: #dd2c2c;
+    border: none;
+    border-radius: 1rem;
+}
+#but8:hover{ 
+    background-color:#dd2c2c;
+    color: white;
+    transition: 0.3s all;
+}
